@@ -1,0 +1,415 @@
+.html {
+  font-size:62.5%;
+}
+
+.App {
+  padding:0;
+  margin:0;
+}
+
+.body {
+  background-color: #2C222B;
+  height: 42.8rem;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.header {
+  background-color: #201e21;
+  margin: 0px;
+  padding: 0px;
+  height: 4.2rem;
+  text-align: right;
+}
+
+.login_bt {
+  display: inline-block;
+  text-align: center;
+  background-color: #92227E;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 4rem;
+  color:white;
+  border: none;
+  font-size: 1rem;
+}
+
+.sign_up {
+  padding: 0px 1rem 0.5rem 0.5rem;
+  display: inline-block;
+  color: white;
+  text-align: center;
+}
+
+.left_column {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  background-color: #211B21;
+  width: 20rem;
+  height: 42.8rem;
+  float: left;
+}
+
+.left_title {
+  color:white;
+  text-align: left;
+  padding-left: 1rem;
+  padding-top: 2rem;
+}
+
+.search_area_label {
+  font: 0.5rem;
+  float: left;
+  padding-left: 1rem;
+  color: #BE17A0;
+}
+
+.search_area_input {
+  position: relative;
+  padding-left: 0.2rem;
+  width: 18rem;
+  height: 2.8rem;
+  border-radius: 0.5rem;
+  color: grey;
+  font-size: 1rem;
+  background-color: #0C0A0A;
+  border: none;
+  margin-bottom: 0.8rem;
+}
+
+.min_max_beds_label {
+  display: inline;
+  font: 0.8rem;
+  padding-right: 2.2rem;
+  padding-left: 1rem;
+  color: #BE17A0;
+}
+
+.min_max_beds_input {
+  display: inline;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: 8rem;
+  height: 2.8rem;
+  border-radius: 0.5rem;
+  color: grey;
+  font-size: 1rem;
+  background-color: #0C0A0A;
+  border: none;
+  margin-bottom: 0.5rem;
+}
+
+.price_label {
+  font: 0.5rem;
+  float: left;
+  padding-left: 1.1rem;
+  color: #BE17A0;
+}
+
+.price_input {
+  position: relative;
+  padding-left: 0.2rem;
+  width: 18rem;
+  height: 2.8rem;
+  border-radius: 0.5rem;
+  color: grey;
+  font-size: 1rem;
+  background-color: #0C0A0A;
+  border: none;
+  margin-bottom: 0.8rem;
+}
+
+.min_max_price_label {
+  display: inline;
+  font: 0.8rem;
+  padding-right: 2.2rem;
+  padding-left: 1rem;
+  color: #BE17A0;
+}
+
+.min_max_price_input {
+  display: inline;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: 8rem;
+  height: 2.8rem;
+  border-radius: 0.5rem;
+  color: grey;
+  font-size: 1rem;
+  background-color: #0C0A0A;
+  border: none;
+  margin-bottom: 0.5rem;
+}
+
+.find_prop_btn {
+  margin-top: 1.5rem;
+  border-radius: 0.5rem;
+  height: 2.5rem;
+  width: 18rem;
+  font-size: 0.9rem;
+  background-color: #D41553;
+  border:none;
+  color:white;
+}
+
+.mid_column {
+  background-color: #191218;
+  width: 38rem;
+  border-radius: 1.5rem;
+  margin-top: 1.5rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-bottom: 1.5rem;
+  height: 42.8rem;
+  overflow: auto;
+  overflow-x:hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #2E2D2D; 
+  border-radius: 0.5rem;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #DCC1C1; 
+  border-radius: 0.5rem;
+}
+
+.room_image {
+  border-radius: 0.5rem;
+  height:18rem;
+  width:35rem;
+  float:center;
+  margin-top: 1.3rem;
+  margin-left: 0.8rem;
+  position: relative;
+}
+
+.room_name {
+  float: left;
+  padding-left: 2rem;
+}
+
+.room_price {
+  position: relative;
+  float: left;
+  right: 13.5rem;
+}
+
+.bed_icon {
+  position: relative;
+  padding-top: 1rem;
+  float: left;
+  padding-left: 1rem;
+}
+
+.sofa_icon {
+  position: relative;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  left: 0.5rem;
+}
+
+.three {
+  position: relative;
+  padding-right: 0.5rem;
+  left: 0.5rem;
+  float: left;
+  top: 0.5rem;
+  font-size: 1rem;
+}
+
+.one {
+  position: relative;
+  left: 3.5rem;
+  float: left;
+  bottom: 0.7rem;
+  font-size: 1rem;
+}
+
+.under_img {
+  position: relative;
+  float: left;
+  top: 3.5rem;
+  right: 12rem;
+}
+
+.under_distance {
+  position: relative;
+  float: left;
+  top: 2rem;
+  right: 11rem;
+  bottom: 0.5rem;
+}
+
+.furnished {
+  position: relative;
+  float: left;
+  top:2rem;
+  right: 9rem;
+}
+
+.room_date {
+  position: relative;
+  float: left;
+  bottom: 2rem;
+  left: 6rem;
+}
+
+.lonely_hr {
+  position: relative;
+  right: 0rem;
+  bottom: 2rem;
+  width: 35rem;
+  border: 1px solid grey;
+}
+
+.map_image {
+  border-radius: 1rem;
+  height: 17rem;
+}
+
+.room_info {
+  font-size: 0.8rem;
+  float: left;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+.mail_icon {
+  position: relative;
+  float: right;
+  bottom: 36rem;
+  right: 1rem;
+}
+
+@media only screen and (max-width:2800px){
+  html {
+    font-size: 150%;
+  }
+}
+
+@media only screen and (max-width:1500px){
+  html {
+    font-size: 98%;
+  }
+}
+
+@media only screen and (max-width:1400px){
+  html {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width:1300px){
+  html {
+    font-size: 90%;
+  }
+}
+@media only screen and (max-width:1200px){
+  html {
+    font-size: 90%;
+  }
+  
+  .mid_column {
+    margin-left: 10rem;
+  }
+}
+
+@media only screen and (max-width:1100px){
+  html {
+    font-size: 90%;
+  }
+
+  .mid_column {
+    margin-left: 7rem;
+  }
+}
+
+@media only screen and (max-width:1000px){
+  html {
+    font-size: 90%;
+  }
+
+  .mid_column {
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width:900px){
+  html {
+    font-size: 90%;
+  }
+
+  .mid_column {
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width:869px){
+  html {
+    font-size: 80%;
+  }
+
+  .mid_column {
+    margin-left: 2rem;
+  }
+
+  .room_date {
+    position: relative;
+    left: 5rem;
+  }
+
+  .furnished {
+    position: relative;
+    float: right;
+    right: 10rem;
+    top: -2rem;
+  }
+
+  .under_img {
+    right: 14rem;
+  }
+
+  .under_distance {
+    right:13rem;
+  }
+}
+
+@media only screen and (max-width:801px){
+  html {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width:775px){
+  html {
+    font-size: 80%;
+  }
+
+  .mid_column {
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (max-width:700px){
+  html {
+    font-size: 80%;
+  }
+
+  .mid_column {
+    margin-left: 2rem;
+  }
+}
