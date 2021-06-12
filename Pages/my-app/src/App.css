@@ -1,0 +1,370 @@
+.html {
+  font-size:62.5%;
+}
+
+.App {
+  padding:0;
+  margin:0;
+}
+
+.body {
+  background-color: #2C222B;
+  height: 42.8rem;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.header {
+  background-color: #201e21;
+  margin: 0px;
+  padding: 0px;
+  height: 4.2rem;
+  text-align: right;
+}
+
+.login_bt {
+  display: inline-block;
+  text-align: center;
+  background-color: #92227E;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 4rem;
+  color:white;
+  border: none;
+  font-size: 1rem;
+}
+
+.sign_up {
+  padding: 0px 1rem 0.5rem 0.5rem;
+  display: inline-block;
+  color: white;
+  text-align: center;
+}
+
+.left_column {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  background-color: #211B21;
+  width: 20rem;
+  height: 42.8rem;
+  float: left;
+}
+
+.left_title {
+  color:white;
+  text-align: left;
+  padding-left: 1rem;
+  padding-top: 2rem;
+}
+
+.search_area_label {
+  font: 0.5rem;
+  float: left;
+  padding-left: 1rem;
+  color: #BE17A0;
+}
+
+.search_area_input {
+  position: relative;
+  padding-left: 0.2rem;
+  width: 18rem;
+  height: 2.8rem;
+  border-radius: 0.5rem;
+  color: grey;
+  font-size: 1rem;
+  background-color: #0C0A0A;
+  border: none;
+  margin-bottom: 0.8rem;
+}
+
+.min_max_beds_label {
+  display: inline;
+  font: 0.8rem;
+  padding-right: 2.2rem;
+  padding-left: 1rem;
+  color: #BE17A0;
+}
+
+.min_max_beds_input {
+  display: inline;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: 8rem;
+  height: 2.8rem;
+  border-radius: 0.5rem;
+  color: grey;
+  font-size: 1rem;
+  background-color: #0C0A0A;
+  border: none;
+  margin-bottom: 0.5rem;
+}
+
+.price_label {
+  font: 0.5rem;
+  float: left;
+  padding-left: 1.1rem;
+  color: #BE17A0;
+}
+
+.price_input {
+  position: relative;
+  padding-left: 0.2rem;
+  width: 18rem;
+  height: 2.8rem;
+  border-radius: 0.5rem;
+  color: grey;
+  font-size: 1rem;
+  background-color: #0C0A0A;
+  border: none;
+  margin-bottom: 0.8rem;
+}
+
+.min_max_price_label {
+  display: inline;
+  font: 0.8rem;
+  padding-right: 2.2rem;
+  padding-left: 1rem;
+  color: #BE17A0;
+}
+
+.min_max_price_input {
+  display: inline;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: 8rem;
+  height: 2.8rem;
+  border-radius: 0.5rem;
+  color: grey;
+  font-size: 1rem;
+  background-color: #0C0A0A;
+  border: none;
+  margin-bottom: 0.5rem;
+}
+
+.find_prop_btn {
+  margin-top: 1.5rem;
+  border-radius: 0.5rem;
+  height: 2.5rem;
+  width: 18rem;
+  font-size: 0.9rem;
+  background-color: #D41553;
+  border:none;
+  color:white;
+}
+
+.mid_column {
+  background-color: #1D191C;
+  width: 38rem;
+  border-radius: 1.5rem;
+  margin-top: 1.5rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-bottom: 1.5rem;
+  height: 42.8rem;
+  overflow: auto;
+  overflow-x:hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #2E2D2D; 
+  border-radius: 0.5rem;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #DCC1C1; 
+  border-radius: 0.5rem;
+}
+
+.search_results_no {
+  color: white;
+  padding-left: 0.5rem;
+}
+
+.room_card {
+  border-radius: 0.5rem;
+  height: 13.5rem;
+  width: 90%;
+  background-color: #191218;
+}
+
+.room_image {
+  border-radius: 0.5rem;
+  height:11rem;
+  width:16rem;
+  float: left;
+  margin-top: 1.3rem;
+  margin-left: 0.8rem;
+  position: relative;
+}
+
+.room_name {
+  padding-top: 1.5rem;
+  padding-right: 3rem;
+}
+
+.room_price {
+  padding-right: 10rem;
+  padding-bottom: 8rem;
+}
+
+.bed_icon {
+  position: relative;
+  padding-top: 1rem;
+  left: -0.5rem;
+}
+
+.sofa_icon {
+  position: relative;
+  padding-top: 1rem;
+  padding-right: 0.5rem;
+  left: 0.5rem;
+}
+
+.three {
+  position: relative;
+  padding-right: 0.5rem;
+  left: 0.1rem;
+  bottom: 0.3rem;
+}
+
+.one {
+  position: relative;
+  padding-right: 0.5rem;
+  left: 4rem;
+  bottom: 3.3rem;
+}
+
+.under_img {
+  position: relative;
+  bottom: 14.8rem;
+  left: 1rem;
+}
+
+.under_distance {
+  position: relative;
+  bottom: 17.8rem;
+  left: 7rem;
+}
+
+.room_date {
+  position: relative;
+  bottom: 18rem;
+  left: 4rem;
+}
+
+.mail_icon {
+  position: relative;
+  bottom: 20rem;
+  left: 43%;
+}
+
+@media only screen and (max-width:2800px){
+  html {
+    font-size: 150%;
+  }
+}
+
+@media only screen and (max-width:1500px){
+  html {
+    font-size: 98%;
+  }
+}
+
+@media only screen and (max-width:1400px){
+  html {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width:1300px){
+  html {
+    font-size: 90%;
+  }
+}
+@media only screen and (max-width:1200px){
+  html {
+    font-size: 90%;
+  }
+  
+  .mid_column {
+    margin-left: 10rem;
+  }
+}
+
+@media only screen and (max-width:1100px){
+  html {
+    font-size: 90%;
+  }
+
+  .mid_column {
+    margin-left: 7rem;
+  }
+}
+
+@media only screen and (max-width:1000px){
+  html {
+    font-size: 90%;
+  }
+
+  .mid_column {
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width:900px){
+  html {
+    font-size: 90%;
+  }
+
+  .mid_column {
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width:850px){
+  html {
+    font-size: 82%;
+  }
+
+  .mid_column {
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (max-width:801px){
+  html {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width:775px){
+  html {
+    font-size: 80%;
+  }
+
+  .mid_column {
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (max-width:700px){
+  html {
+    font-size: 80%;
+  }
+
+  .mid_column {
+    margin-left: 2rem;
+  }
+}
